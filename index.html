@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DIPAK Store</title>
+</head>
+<body>
+    <header>
+        <h1>DIPAK Store</h1>
+        
+    </header>
+    <main>
+        <section id="product-list" class="scrollable">
+            <div class="product">
+                <img src="dipak.jpeg" alt="iPhone 15">
+                <h3>Product 1</h3>
+                <p>iPhone 15</p>
+                <p>$999.99</p>
+                <button onclick="addToCart('iPhone 15', 999.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="dipak.jpeg" alt="iPhone 13">
+                <h3>Product 2</h3>
+                <p>iPhone 13</p>
+                <p>$799.99</p>
+                <button onclick="addToCart('iPhone 13', 799.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <div class="product-video-icon">🎥</div> <!-- Video icon -->
+                <video width="300" height="200" controls>
+                    <source src="dipak.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Product Video</h3>
+                <p>Watch the video for more details</p>
+            </div>
+              
+            </div>
+        </section>
+    </main>
+    <footer><p>&copy; 2024 DIPAK Store</p>
+    </footer>
+    <button id="search-button" onclick="openSearch()">Search</button>
+    <script src="script.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
